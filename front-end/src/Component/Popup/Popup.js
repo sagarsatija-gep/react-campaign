@@ -5,7 +5,7 @@ const Popup = props => {
     <div className="popup-box">
       <div className="box">
         <section style={{"display":"flex"}}>
-        <img src={props.content.image_url} style={{"width":"80px","height":"80px","boxShadow":"1px 2px 3px #ccc"}}/>
+        <img alt="campaign icon" src={props.content.image_url} style={{"width":"80px","height":"80px","boxShadow":"1px 2px 3px #ccc"}}/>
         
         <span>
         <div style={{"fontWeight":"bold","padding":"35px 5px 5px 0px"}}>{props.content.name}</div>

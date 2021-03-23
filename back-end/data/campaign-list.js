@@ -7,7 +7,7 @@ const campaignList = [
         "price": [100,500,900],
         "csv": "Some CSV link for Auto Chess",
         "report": "Some report link for Auto Chess",
-        "image_url": "/images/autoChess.png"
+        "image_url": "https://node2905.herokuapp.com/images/autoChess.png"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@ const campaignList = [
         "price":[75,430,850],
         "csv": "Some CSV link for PUBG MOBILE",
         "report": "Some report link for PUBG MOBILE",
-        "image_url": "/images/pubg.png"
+        "image_url": "https://node2905.herokuapp.com/images/pubg.png"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@ const campaignList = [
         "price": [70,340,630],
         "csv": "Some CSV link for Flow Free",
         "report": "Some report link for Flow Free",
-        "image_url": "/images/flowfree.png"
+        "image_url": "https://node2905.herokuapp.com/images/flowFree.png"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@ const campaignList = [
         "price": [50,200,300],
         "csv": "Some CSV link for Garena Free Fire",
         "report": "Some report link for Garena Free Fire",
-        "image_url": "/images/freefire.png"
+        "image_url": "https://node2905.herokuapp.com/images/freefire.png"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@ const campaignList = [
         "price": [120,530,940],
         "csv": "Some CSV link for MORTAL KOMBAT",
         "report": "Some report link for MORTAL KOMBAT",
-        "image_url": "/images/mortalkombat.png"
+        "image_url": "https://node2905.herokuapp.com/images/mortalkombat.png"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@ const campaignList = [
         "price": [70,400,800],
         "csv": "Some CSV link for Summoners War",
         "report": "Some report link for Summoners War",
-        "image_url": "/images/summonerswars.png"
+        "image_url": "https://node2905.herokuapp.com/images/summonerswars.png"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@ const campaignList = [
         "price": [95,490,880],
         "csv": "Some CSV link for Need for Speed",
         "report": "Some report link for Need for Speed",
-        "image_url": "/images/needforspeed.png"
+        "image_url": "https://node2905.herokuapp.com/images/needforspeed.png"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@ const campaignList = [
         "price": [80,400,700],
         "csv": "Some CSV link for Shadow Fight 3",
         "report": "Some report link for Shadow Fight 3",
-        "image_url": "/images/shadowfight.png"
+        "image_url": "https://node2905.herokuapp.com/images/shadowFight.png"
     }
 ];
 

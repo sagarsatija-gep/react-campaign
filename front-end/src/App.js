@@ -46,7 +46,7 @@ class App extends Component {
 
   componentDidMount() {
     console.log('componentDidMount Run');
-    axios.get('/api/campaignData').then((res)=>{
+    axios.get('https://node2905.herokuapp.com/api/campaignData').then((res)=>{
       let {tableData} = this.state;
       tableData.data = res.data;
       this.setState({

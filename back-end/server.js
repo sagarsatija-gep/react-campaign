@@ -1,12 +1,15 @@
 const express = require('express');
 const campaignList = require('./data/campaign-list');
 const serveStatic=require('serve-static')
+const cors = require('cors')
 const app = express();
+app.use(cors());
+app.use(serveStatic('data'))
 app.get('/', (req, res)=> {
     res.send('API is running');
 }); 
 
-app.use(serveStatic('data'))
+
 
 app.get('/api/campaignData', (req, res)=> {
     // res.send('API is running');

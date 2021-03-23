@@ -8,7 +8,7 @@ const container = (props) => {
         <div className="container">
             <header className="header">
                 <span className='headerText'>
-                <img style={{width:"175px"}}src="./images/BlueStacks_Logo.png"/>
+                <img alt="company logo" style={{width:"175px"}}src="./images/BlueStacks_Logo.png"/>
                 </span>
             </header>
             <div className="body-container">

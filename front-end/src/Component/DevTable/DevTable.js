@@ -130,7 +130,7 @@ class DevTable extends Component {
                 <tbody>
                     {
                         this.props.data.data.map((data)=>(
-                            <tr>
+                            <tr key="data._id">
                                 <td className="column-cell">
                                     {
                                         this.doubleText(this.digitToDateAndTime(data.createdOn))
@@ -142,11 +142,11 @@ class DevTable extends Component {
                                     }
                                 </td>
                                 <td className="column-cell">
-                                    <div className="icon-text" onClick={() => this.togglePopup(data)}><span><img className="im" src='./images/price.png'/></span>View Pricing</div>
+                                    <div className="icon-text" onClick={() => this.togglePopup(data)}><span><img alt="price icon" className="im" src='./images/Price.png'/></span>View Pricing</div>
                                 </td>
                                 <td className="column-cell">
-                                    <div className="icon-text" onClick={() => this.showAlert(data.csv)}><span><img className="im" src='./images/file.png'/></span>CSV</div>
-                                    <div className="icon-text" onClick={() => this.showAlert(data.report)}><span><img className="im" src='./images/statistics-report.png'/></span>REPORT</div>
+                                    <div className="icon-text" onClick={() => this.showAlert(data.csv)}><span><img className="im" alt="csv icon" src='./images/file.png'/></span>CSV</div>
+                                    <div className="icon-text" onClick={() => this.showAlert(data.report)}><span><img className="im" alt="report icon" src='./images/statistics-report.png'/></span>REPORT</div>
                                     <div className="icon-text">
                                     <span><img className="im" src='./images/calendar.png'/><input className="date-input" type="date"  value={new Date(data.createdOn)}
                                         onChange={(event)=>this.props.changeCampaignDate(event, data.id)}></input></span> SCHEDULE AGAIN                    
